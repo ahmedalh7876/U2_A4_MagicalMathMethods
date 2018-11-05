@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="bgPnl" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="bgPnl" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="bgPnl">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="d9" green="dd" red="ec" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="pwrNmbrLbl" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+                                          <Component id="pwrNmbrTf1" min="-2" pref="100" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="pwrNmbrTf2" min="-2" pref="100" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="pwrNmbrBtn" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="pwrNmbrOutputLbl2" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="bigNmbrLbl" min="-2" max="-2" attributes="0"/>
+                                      <Group type="102" attributes="0">
+                                          <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+                                          <Component id="bigNmbrTf1" min="-2" pref="100" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="bigNmbrTf2" min="-2" pref="100" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="bigNmbrBtn" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="bigNmbrOutputLbl" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Component id="bigNmbrLbl3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+                                          <Component id="bigNmbrTf7" min="-2" pref="100" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="bigNmbrTf8" min="-2" pref="100" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="bigNmbrBtn3" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="pwrNmbrOutputLbl" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Component id="bigNmbrLbl5" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+                                          <Component id="bigNmbrTf12" min="-2" pref="100" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="136" max="-2" attributes="0"/>
+                                          <Component id="bigNmbrBtn5" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="bigNmbrOutputLbl5" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Component id="smallNmbrTf1" min="-2" pref="100" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="smallNmbrTf2" min="-2" pref="100" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="smallNmbrBtn" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="smallNmbrOutputLbl1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="-2" pref="179" max="-2" attributes="0"/>
+                                  <Component id="titleLbl" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="155" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="bigNmbrLbl4" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="smallNmbrLbl1" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="bigNmbrLbl7" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="bigNmbrLbl6" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="13" pref="13" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="bigNmbrTf10" min="-2" pref="100" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="136" max="-2" attributes="0"/>
+                                          <Component id="bigNmbrBtn4" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="bigNmbrOutputLbl4" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="bigNmbrTf16" min="-2" pref="100" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="136" max="-2" attributes="0"/>
+                                          <Component id="bigNmbrBtn7" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="bigNmbrOutputLbl7" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="bigNmbrTf14" min="-2" pref="100" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="136" max="-2" attributes="0"/>
+                                          <Component id="bigNmbrBtn6" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="bigNmbrOutputLbl6" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="titleLbl" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="bigNmbrLbl" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="bigNmbrTf1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="bigNmbrTf2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="bigNmbrBtn" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="bigNmbrOutputLbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="smallNmbrLbl1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="smallNmbrTf1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="smallNmbrTf2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="smallNmbrBtn" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="smallNmbrOutputLbl1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="pwrNmbrLbl" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="pwrNmbrTf1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="pwrNmbrTf2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="pwrNmbrBtn" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="pwrNmbrOutputLbl2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="bigNmbrLbl3" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="bigNmbrTf7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="bigNmbrTf8" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="bigNmbrBtn3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="pwrNmbrOutputLbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="bigNmbrLbl4" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="bigNmbrTf10" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="bigNmbrBtn4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="bigNmbrOutputLbl4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="bigNmbrLbl5" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="bigNmbrTf12" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="bigNmbrBtn5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="bigNmbrOutputLbl5" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="bigNmbrLbl6" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="bigNmbrTf14" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="bigNmbrBtn6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="bigNmbrOutputLbl6" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="bigNmbrLbl7" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="bigNmbrTf16" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="bigNmbrBtn7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="bigNmbrOutputLbl7" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="45" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="titleLbl">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="StencilDEE" size="30" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="33" green="33" red="0" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="The Math Boi"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="bigNmbrLbl">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="StencilDEE" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Enter two numbers, then press the button to find the larger number"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="bigNmbrTf1">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bigNmbrTf1ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="bigNmbrTf2">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bigNmbrTf2ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="bigNmbrBtn">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Find Larger #"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="bigNmbrOutputLbl">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="StencilDEE" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Larger #: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="smallNmbrLbl1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="StencilDEE" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Enter two numbers, then press the button to find the smaller number"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="smallNmbrTf1">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="smallNmbrTf1ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="smallNmbrTf2">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="smallNmbrTf2ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="smallNmbrBtn">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Find Smaller #"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="smallNmbrOutputLbl1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="StencilDEE" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Smaller #: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="pwrNmbrOutputLbl2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="StencilDEE" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Power #: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="pwrNmbrBtn">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Find Power #"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="pwrNmbrBtnActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="pwrNmbrTf1">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="pwrNmbrTf1ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="pwrNmbrTf2">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="pwrNmbrTf2ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="pwrNmbrLbl">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="StencilDEE" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Enter two numbers, then press the button to find the 1st # to the 2nd #"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="pwrNmbrOutputLbl">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="StencilDEE" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="hypotenuse #: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="bigNmbrBtn3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Find Hypotenuse #"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bigNmbrBtn3ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="bigNmbrTf7">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bigNmbrTf7ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="bigNmbrTf8">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bigNmbrTf8ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="bigNmbrLbl3">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="StencilDEE" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Enter two numbers, then press the button to find the hypotenuse"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="bigNmbrLbl4">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="StencilDEE" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Enter a number, then press button to round # down to nearest int"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="bigNmbrTf10">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bigNmbrTf10ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="bigNmbrBtn4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Round # Down"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bigNmbrBtn4ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="bigNmbrOutputLbl4">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="StencilDEE" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="rounded #: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="bigNmbrOutputLbl5">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="StencilDEE" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Rounded #:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="bigNmbrBtn5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Round # Up"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="bigNmbrLbl5">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="StencilDEE" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Enter a number, then press button to round # up to nearest int"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="bigNmbrTf12">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bigNmbrTf12ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="bigNmbrOutputLbl6">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="StencilDEE" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Root #: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="bigNmbrBtn6">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Square Root #"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="bigNmbrLbl6">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="StencilDEE" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Enter a Number, then press button to find the square root"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="bigNmbrTf14">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bigNmbrTf14ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="bigNmbrOutputLbl7">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="StencilDEE" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Radian #: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="bigNmbrBtn7">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Find Radian #"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="bigNmbrTf16">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bigNmbrTf16ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="bigNmbrLbl7">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="StencilDEE" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Enter an angle in degrees, then press button to convert it to radians"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
